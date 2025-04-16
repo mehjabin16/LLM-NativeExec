@@ -10,7 +10,7 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from huggingface_hub import login
 
-login(token = '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')
+login(token = 'your_key')
 
 def read_data_file(file_path):
     """Read JSON or JSONL data files."""

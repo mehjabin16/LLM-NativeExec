@@ -1,0 +1,6 @@
+torch
+transformers
+accelerate
+tqdm
+huggingface_hub
+bitsandbytes
