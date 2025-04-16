@@ -1,4 +1,4 @@
-# Running LLMs native on Different Backends 
+# Running LLMs natively on Different Backends 
 This covers how to run the native.py script with different hardware setups: CPU, CUDA (GPU), and MPS (Mac).
 
 # General Command Format:
