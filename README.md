@@ -74,7 +74,7 @@ If the module bitsandbytes not found -
 pip install git+https://github.com/TimDettmers/bitsandbytes.git 
 
 --------------------------------------------------
-#🍎 MPS Setup (Mac with Apple Silicon):
+# 🍎 MPS Setup (Mac with Apple Silicon):
 1. Install PyTorch with MPS support (macOS):
 ```
    pip install torch torchvision torchaudio
