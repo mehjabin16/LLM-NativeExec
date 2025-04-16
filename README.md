@@ -1,5 +1,6 @@
-# Running LLMs natively on Different Backends 
+# Running LLMs Natively on Different Backends 
 This covers how to run the native.py script with different hardware setups: CPU, CUDA (GPU), and MPS (Mac).
+The native_quant.py has additional option for 4-bit and 8-bit quantization using BitsAndBytesConfig, as 4-bit quantization significantly reduces the memory footprint of large language models.
 
 # General Command Format:
 ```
@@ -10,7 +11,7 @@ python native.py
 --output_dir <output_dir>
 ```
 
-# Hugging Face Auth:
+# Hugging Face Token:
 ```
 from huggingface_hub import login
 login(token="your_huggingface_token_here")
